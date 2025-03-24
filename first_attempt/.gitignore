@@ -1,0 +1,7 @@
+__pycache__
+.chainlit/
+.files/
+.venv/
+.vscode
+assets/
+.env
