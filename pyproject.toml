@@ -1,0 +1,28 @@
+[project]
+name = "ey-agentic-challenge-1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Elizabeth",email = "elizabeth.mekbib@ey.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "streamlit (>=1.44.0,<2.0.0)",
+    "openai (>=1.69.0,<2.0.0)",
+    "autogen-agentchat (>=0.4.9.2,<0.5.0.0)",
+    "md-to-pdf (>=0.1.0,<0.2.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "tavily-python (>=0.5.1,<0.6.0)",
+    "dotenv (>=0.9.9,<0.10.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.44.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
